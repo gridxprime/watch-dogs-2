@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <title>Watch Dogs 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first__window">
+            <div class="notification">
+                <h2>Welcome</h2>
+                <span>The main character of the game, a hacker originally from Oakland, California, 
+                    named Marcus Holloway moves to San Francisco, in the heart of Silicon Valley, where,
+                     teaming up with a group of activists from the DedSec organization, he challenges greedy corporations and corrupt 
+                    city authorities, taking control of the updated universal ctOS 2.0 
+                    system and posting your actions on social networks.</span>
+            </div>
+            <button onclick="goNextPage()" class="begin"><p>Confirm</p></button>
+        </div>
+        <div class="second__window">
+            <div class="main__char">
+                <img onclick="wrenchInfo()" src="img/char/wrench.png" alt="">
+                <img onclick="marcusInfo()" src="img/char/Marcus.webp" alt="">
+                <img onclick="sitaraInfo()" src="img/char/sitara.png" alt="">
+            </div>
+            <button onclick="getBack()" class="get__back">Get Back</button>
+            </div>
+
+        <div class="third__window">
+            <div class="wrench">
+                <h2>Reginald "Wrench" Blechman</h2>
+                <p>Wrench Skills</p>
+            <div class="char__2-sides">
+                <div class="left"><img onclick="openGalleryWrench()" src="img/char/wrench.png" alt=""></div>
+                <div class="right">
+                <div class="wrench__skills">
+                    
+                    <div class="wrench__item"></div>
+                    <div class="wrench__item"></div>
+                    <div class="wrench__item"></div>
+                    <div class="wrench__item"></div>
+
+                </div>
+                <div class="wrench__skills-txt">
+                    <span>Sleight of Hand</span>
+                    <span>Stability</span>
+                    <span>Weapon Skill</span>
+                    <span>Power</span>
+                </div>
+            </div>
+            </div>
+            </div>
+                <div class="marcus">
+                <h2>Marcus Holloway</h2>
+                <p>Marcus Skills</p>
+                <div class="char__2-sides">
+                    <div class="left"><img onclick="openGalleryMarcus()" src="img/char/Marcus.webp" alt=""></div>
+                    <div class="right">
+                <div class="marcus__skills">
+                    
+                    <div class="marcus__item"></div>
+                    <div class="marcus__item"></div>
+                    <div class="marcus__item"></div>
+                    <div class="marcus__item"></div>
+
+                </div>
+                <div class="marcus__skills-txt">
+                    <span>Sleight of Hand</span>
+                    <span>Stability</span>
+                    <span>Weapon Skill</span>
+                    <span>Power</span>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="sitara">
+                <h2>Sitara Dhawan</h2>
+                <p>Sitara Skills</p>
+                <div class="char__2-sides">
+                    <div class="left"><img onclick="openGallerySitara()" src="img/char/sitara.png" alt=""></div>
+                    <div class="right">
+                <div class="sitara__skills">
+                    
+                    <div class="sitara__item"></div>
+                    <div class="sitara__item"></div>
+                    <div class="sitara__item"></div>
+                    <div class="sitara__item"></div>
+
+                </div>
+                <div class="sitara__skills-txt">
+                    <span>Sleight of Hand</span>
+                    <span>Stability</span>
+                    <span>Weapon Skill</span>
+                    <span>Power</span>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="wrench__gallery">
+            <p>Wrench</p>
+            <div class="img__scroll">
+                <img src="img/charecters/wrench/1.jpg" alt="">
+                <img src="img/charecters/wrench/2.jpg" alt="">
+                <img src="img/charecters/wrench/3.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="marcus__gallery">
+            <p>Marcus</p>
+            <div class="img__scroll">
+                <img src="img/charecters/marcus/1.jpg" alt="">
+                <img src="img/charecters/marcus/2.jpg" alt="">
+                <img src="img/charecters/marcus/3.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="sitara__gallery">
+            <p>Sitara</p>
+            <div class="img__scroll">
+                <img src="img/charecters/sitara/1.jpg" alt="">
+                <img src="img/charecters/sitara/2.jpg" alt="">
+                <img src="img/charecters/sitara/3.jpg" alt="">
+
+            </div>
+        </div>
+        <button onclick="getBackFromCharecterInfo()" class="get__back-info">Get Back</button>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
